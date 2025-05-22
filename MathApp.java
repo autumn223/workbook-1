@@ -12,7 +12,7 @@ public class MathApp {
         System.out.println(" - Gary's salary: $" + garySalary);
         System.out.println(" - The highest salary is: $" + highestSalary);
 
-        System.out.println(); // Spacer
+        System.out.println(); 
 
         // Question 2: Which vehicle is cheaper?
         double carPrice = 20000.00 + Math.random() * 10000; // random between 20k and 30k
@@ -37,7 +37,7 @@ public class MathApp {
         double squareRoot = Math.sqrt(numberToSqrt);
         System.out.println("Question 4: The square root of " + numberToSqrt + " is " + squareRoot);
 
-        System.out.println(); // Spacer
+        System.out.println();
 
         // Question 5: Distance between two points (5,10) and (85,50)
         int x1 = 5, y1 = 10;
@@ -45,7 +45,7 @@ public class MathApp {
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("Question 5: The distance between (5,10) and (85,50) is " + distance);
 
-        System.out.println(); // Spacer
+        System.out.println(); 
 
         // Question 6: Absolute value of a number
         double negativeValue = -3.8;
